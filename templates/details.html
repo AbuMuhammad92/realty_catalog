@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Детали объекта</title>
+</head>
+<body>
+    <h1>{{ property[1] }}</h1>
+    <p>Адрес: {{ property[2] }}</p>
+    <p>Этаж: {{ property[3] }}</p>
+    <p>Площадь: {{ property[4] }} м²</p>
+    <p>Тип: {{ property[5] }}</p>
+    <p>Ближайшие метро: {{ ', '.join(property[6]) }}</p>
+    <a href="{{ url_for('index') }}">Вернуться к списку</a>
+</body>
+</html>

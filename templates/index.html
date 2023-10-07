@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список объектов</title>
+</head>
+<form method="get" action="/">
+    <label for="area">Площадь:</label>
+    <input type="text" id="area" name="area">
+
+    <label for="floor">Этаж:</label>
+    <input type="text" id="floor" name="floor">
+
+    <label for="metro">Метро:</label>
+    <input type="text" id="metro" name="metro">
+
+    <button type="submit">Фильтровать</button>
+</form>
+<body>
+    {% for property in properties %}
+        <a href="{{ url_for('property_details', property_id=property[0]) }}">{{ property[1] }}</a><br>
+    {% endfor %}
+</body>
+</html>
+
+
+
+
