@@ -3,6 +3,7 @@
 Предварительные требования
 Python 3.6+
 PostgreSQL
+
 Установка и настройка
 
 Клонирование репозитория:
@@ -18,11 +19,10 @@ pip install -r requirements.txt
 
 Настройка базы данных:
 Создайте новую базу данных в PostgreSQL.
-
 Примените структуру базы данных, используя:
 bash
 psql -U your_username -d your_database_name -a -f database_setup.sql
-Замечание: Замените your_username на имя вашего пользователя PostgreSQL и your_database_name на имя вашей базы данных.
+Замените your_username на имя вашего пользователя PostgreSQL и your_database_name на имя вашей базы данных.
 
 Установка переменных окружения и запуск приложения:
 bash
