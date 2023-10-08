@@ -20,10 +20,12 @@ python -m venv venv
 
 
 Активация виртуального окружения:
+
 На macOS и Linux:
 
 
 source venv/bin/activate
+
 На Windows:
 
 
