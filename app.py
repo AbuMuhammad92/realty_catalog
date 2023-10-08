@@ -11,7 +11,6 @@ conn = psycopg2.connect(
 )
 
 @app.route('/')
-@app.route('/')
 def index():
     area = request.args.get('area')
     floor = request.args.get('floor')
