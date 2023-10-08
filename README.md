@@ -15,12 +15,17 @@ git clone https://github.com/AbuMuhammad92/realty_catalog.git
 
 Настройка виртуального окружения и установка зависимостей:
 
+
 python -m venv venv
+
 
 Активация виртуального окружения:
 На macOS и Linux:
 
+
 source venv/bin/activate
+На Windows:
+
 
 venv\Scripts\activate
 
